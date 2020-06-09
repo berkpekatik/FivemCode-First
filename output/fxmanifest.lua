@@ -9,4 +9,7 @@ version '1.0.0'
 -- What to run
 client_script 'Client.net.dll'
 
-server_script 'server.lua'
+server_script 'Server.net.dll'
+files{
+ 'Newtonsoft.Json.dll'
+}
